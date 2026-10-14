@@ -1,0 +1,131 @@
+{
+  "best_model": "Logistic Regression",
+  "classes": [
+    "Insomnia",
+    "None",
+    "Sleep Apnea"
+  ],
+  "metrics": {
+    "Accuracy": 0.7037,
+    "Precision (macro)": 0.6833,
+    "Recall (macro)": 0.6556,
+    "F1 (macro)": 0.6571,
+    "CV F1 mean": 0.7156,
+    "CV F1 std": 0.0633
+  },
+  "n_rows_after_dedup": 132,
+  "n_train": 105,
+  "n_test": 27,
+  "supports_proba": true,
+  "options": {
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "Occupation": [
+      "Accountant",
+      "Doctor",
+      "Engineer",
+      "Lawyer",
+      "Manager",
+      "Nurse",
+      "Sales Representative",
+      "Salesperson",
+      "Scientist",
+      "Software Engineer",
+      "Teacher"
+    ],
+    "BMI Category": [
+      "Normal",
+      "Obese",
+      "Overweight"
+    ]
+  },
+  "ranges": {
+    "Age": [
+      27.0,
+      59.0
+    ],
+    "Sleep Duration": [
+      5.8,
+      8.5
+    ],
+    "Quality of Sleep": [
+      4.0,
+      9.0
+    ],
+    "Physical Activity Level": [
+      30.0,
+      90.0
+    ],
+    "Stress Level": [
+      3.0,
+      8.0
+    ],
+    "Heart Rate": [
+      65.0,
+      86.0
+    ],
+    "Daily Steps": [
+      3000.0,
+      10000.0
+    ]
+  },
+  "bp_ranges": {
+    "Systolic BP": [
+      115.0,
+      142.0
+    ],
+    "Diastolic BP": [
+      75.0,
+      95.0
+    ]
+  },
+  "model_comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.7037,
+      "Precision (macro)": 0.6833,
+      "Recall (macro)": 0.6556,
+      "F1 (macro)": 0.6571,
+      "CV F1 mean": 0.7156,
+      "CV F1 std": 0.0633
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.5556,
+      "Precision (macro)": 0.5074,
+      "Recall (macro)": 0.4667,
+      "F1 (macro)": 0.4554,
+      "CV F1 mean": 0.4519,
+      "CV F1 std": 0.0257
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.6296,
+      "Precision (macro)": 0.5595,
+      "Recall (macro)": 0.5444,
+      "F1 (macro)": 0.5452,
+      "CV F1 mean": 0.5465,
+      "CV F1 std": 0.0723
+    },
+    {
+      "Model": "K-Nearest Neighbors",
+      "Accuracy": 0.6667,
+      "Precision (macro)": 0.6508,
+      "Recall (macro)": 0.6333,
+      "F1 (macro)": 0.6094,
+      "CV F1 mean": 0.6345,
+      "CV F1 std": 0.0981
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 0.6296,
+      "Precision (macro)": 0.55,
+      "Recall (macro)": 0.5444,
+      "F1 (macro)": 0.5459,
+      "CV F1 mean": 0.5209,
+      "CV F1 std": 0.1178
+    }
+  ]
+}
